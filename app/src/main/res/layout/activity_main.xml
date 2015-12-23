@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:WaveView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    tools:context="android.ssa.com.waveview.MainActivity">
+
+    <android.ssa.com.waveview.WaveView
+        android:id="@+id/wave_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        WaveView:above_wave_color="@android:color/white"
+        WaveView:blow_wave_color="@android:color/holo_red_dark"
+        tools:ignore="MissingPrefix" />
+</RelativeLayout>
